@@ -9,8 +9,9 @@ app.get('/user', (request, response)=>{
     response.json({
                    nome: "Lucas Fernandes Ramos",
                    email: 'teste@hotmail.com',
-                   cidade: 'Sorocaba'
+                   cidade: 'Sorocaba/SP'
                 });
+                
  });
 
 
